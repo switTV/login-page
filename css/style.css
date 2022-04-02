@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --just-black: #000;
+    --just-white: #fff;
+    --first-gray: #635C5C;
+    --first-blue: #0B6EFE;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow-y:scroll;
+}
+/* header----------------------------------------- */
+
+.img-header{
+    width: 310px;
+    height: 187px;
+    min-width: 314px;
+
+    margin: 10px;
+
+    background-image: url(../img/undraw_login.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+/* main------------------------------------------- */
+.container-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.container-form input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+    width: 280px;
+    height: 40px;
+
+    border-radius: 5px;
+
+    border: 1px #887E7E solid;
+
+    padding-left: 10px;
+}
+
+.container-form input::placeholder{
+    color: var(--first-gray);
+    font-family: "Outfit", sans-serif;
+}
+
+.container-title h2{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-black);
+
+    margin-bottom: 10px;
+
+    width: 280px;
+}
+
+.container-title{
+    display: flex;
+    justify-content: center;
+}
+
+.container-form-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form-down .helping-text{
+    width: 280px;
+    text-align: right;
+    margin-bottom: 20px;
+
+    font-family: "Outfit", sans-serif;
+    text-decoration:underline;
+    color: var(--first-gray);
+    font-size: 11px;
+}
+
+.container-form-down .container-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-form-down button{
+    width: 280px;
+    height: 40px;
+
+    background-color: #0B6EFE;
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--just-white);
+}
+
+.container-sign-up{
+    width: 100%;
+}
+
+.botones-sign-up{
+    display: flex;
+    justify-content: center;
+}
+
+.botones-sign-up img{
+    margin-left: 10px;
+}
+
+.texto-sign-up{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit";
+    margin: 10px;
+}
